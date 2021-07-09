@@ -1,0 +1,24 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    height: 240px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.heading_div{
+    float: none;/*keep div in center*/
+    background:lightpink;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.heading_objects{
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
