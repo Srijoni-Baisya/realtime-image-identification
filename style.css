@@ -2,8 +2,12 @@
     font-size: 23px;
     width: 100%;
     margin: 0px;
-    height: 240px;
+    height: 200px;
     box-shadow: 5px 5px 5px darkgray;
+    background-color: purple;
+    color: white;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
 .heading_div{
@@ -13,13 +17,36 @@
     border-radius: 20px;
     color: black;
     box-shadow: 5px 5px 5px darkgray;
-
+    font-size: 20px;
 }
 
 .heading_objects{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body{
     font-family: 'Roboto Slab', serif;
+    background-size: cover;
+}
+
+.result_para_tag{
+    box-shadow: 5px 5px 5px darkgray;
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    background-color:rgb(71, 5, 5);
+    line-height: 2;
+    font-size: 16px;
+}
+
+canvas{
+    margin-top: 100px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgray;
 }
